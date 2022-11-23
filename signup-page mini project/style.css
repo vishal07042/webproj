@@ -1,0 +1,180 @@
+ /* wriiteen by me */
+ 
+ 
+ 
+ 
+ 
+ /* #submit{
+    border: 4px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+#submit:hover{
+    transition: 0.9 ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+    text-align: center;
+    font-size: 67px;
+    background-color: rgb(172, 19, 87);
+}
+.inlinefoot{
+    margin-top: 100px;
+    display: inline-block;
+   position: relative;
+   top: 300px;
+   left: 700px;
+}
+.fontenlarge{
+    padding: 90px;
+
+} */
+.onHover{
+    background-color: #3498db;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    /* font-size: 0px; */
+}
+.onHover:hover{
+    color: #ffffff;
+    background-color: black;
+    font-size: 46px;
+    font-family: 'Sacramento', cursive;
+}
+/* =================byAnujbhaiya================ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Montserrat; */
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-image:1668507872834.jpg;
+
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,#3ed8ff,#a8f5ff);
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: aquamarine;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2 ;
+}
+.signup-header h1{
+    font-size: 2.5rem;
+}
+.signup-header p{
+    display: inline ;
+    font-size: 2.5rem;
+}
+.signup-body{
+    margin: 20px 0;
+}
+.signup-body p{
+    margin: 10px 0;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold ;
+}
+.signup-body p input{
+   
+    border: 2px solid ;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 6px;
+    width: 100%;
+   
+
+}
+.signup-footer p{
+    color: #555;
+    text-align: center;
+
+}
+.signup-footer p a{
+    color: #2773a5;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 5000px;
+    background: linear-gradient(to  top right, #ffffff33,#ffffffff);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+ bottom: 360px;  
+  right: 30px;
+}
+.c3{
+    left: 200px;
+    bottom: 6px;
+}
+.c1:hover{
+    background: linear-gradient(to top left,#000000,#000000);
+}
+.c2:hover{
+    background: linear-gradient(to top left,#000000,#000000);
+    visibility: visible;
+    background: white;
+    background-color: black;
+}
+
+
+.c3:hover{
+    background-color: black;
+    
+}
+
+.textOfCircle{
+    position: absolute;
+    top: 160px;
+    left: 90px;
+    /* visibility: hidden; */
+}
+
+
+.inlinefoot{
+    text-align: center;
+}
+.footer-box{
+   
+}
+.footer-box p:hover{
+    color: aliceblue;
+    background-color: black;
+    font-size: 26px;
+}
+.about:hover{
+    font-size: 40px;
+    background-color: black;
+    color: #3498db;
+    cursor: pointer;
+}
+.footer-box a:hover{
+    font-size: 46px;
+   background-color: black;
+   color: rgb(245, 238, 241);
+}
+.textOfCircle2{
+    position: absolute;
+    top: 500px;
+    right: 100px;
+  
+}
